@@ -25,8 +25,21 @@ body {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-4-columns {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.embeds {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.instagram-embeds {
+    margin: 30px 0;
 }
 
 .card {
@@ -230,5 +243,13 @@ footer a {
 
     section {
         padding: 30px;
+    }
+
+    main h2 {
+        font-size: 13px;
+    }
+
+    main h3 {
+        font-size: 30px;
     }
 }
