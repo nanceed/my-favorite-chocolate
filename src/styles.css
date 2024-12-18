@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .grid {
    display: grid; 
    grid-gap: 64px;
@@ -23,9 +27,13 @@ body {
 
 
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+section.secondary {
+    background-color: #F9F7F2;
 }
 
 
