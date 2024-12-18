@@ -116,7 +116,7 @@ header a {
 }
 
 .image-responsive {
-    max-width: 100%;
+    width: 100%;
 }
 
 main {
