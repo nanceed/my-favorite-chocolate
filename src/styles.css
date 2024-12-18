@@ -43,7 +43,7 @@ body {
 }
 
 .card {
-    background-color: white;
+    background-color: #FFFDF9;
     margin-top: 30px 0;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .button {
     display: block;
-    color: white;
+    color: #FFFDF9;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
@@ -90,7 +90,7 @@ header {
     url('../images/chocolate-boxes.png');
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #FFFDF9;
     text-align: center;
     padding: 200px;
 }
@@ -125,7 +125,7 @@ header a {
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: #FFFDF9;
     text-decoration: none;
     color: #272044;
     padding: 16px 32px;
