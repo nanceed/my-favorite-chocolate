@@ -230,7 +230,7 @@ footer a {
     }
 
     header h1 {
-        font-size: 48px;
+        font-size: 42.5px;
     }
 
     header h2 {
@@ -238,7 +238,11 @@ footer a {
     }
 
     header h3 {
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    header a {
+        padding: 14px 26px;
     }
 
     .grid {
@@ -251,10 +255,19 @@ footer a {
     }
 
     main h2 {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     main h3 {
-        font-size: 30px;
+        font-size: 29px;
+    }
+
+    main h5 {
+        font-size: 15px;
+    }
+
+    main p,
+    footer p {
+        font-size: 17px;
     }
 }
