@@ -1,3 +1,8 @@
+:root {
+    --text-color--: #272044;
+    --primary-color--:  #FFFDF9;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     background-color: #D3A741;
@@ -43,7 +48,7 @@ body {
 }
 
 .card {
-    background-color: #FFFDF9;
+    background-color: var(--primary-color--);
     margin-top: 30px 0;
 }
 
@@ -59,14 +64,59 @@ body {
     padding: 0 20px 20px;
 }
 
+.button,
+header h1,
+header a,
+main h2,
+main h3,
+main h4,
+main h5,
+footer h3 {
+    font-weight: 700;
+}
+
+.button,
+ header h2,
+ header h3,
+ header a,
+ main h2,
+ main h3,
+ main p {
+    line-height: 1.5;
+}
+
+header h2,
+footer p {
+    font-weight: 400;
+}
+
+main p,
+footer a {
+    opacity: 0.7;
+}
+
+header h2,
+header h3,
+main h2,
+main h3 {
+    margin: 0;
+}
+
+.button,
+header a {
+    letter-spacing: 3px;
+}
+
+header h3,
+main h2 {
+    letter-spacing: 5px;
+}
+
 .button {
     display: block;
-    color: #FFFDF9;
-    font-weight: 700;
+    color: var(--primary-color--);
     font-size: 14px;
-    line-height: 1.5;
     text-align: center;
-    letter-spacing: 3px;
     text-transform: uppercase;
     padding: 16px;
     background-color: rgba(200, 94, 47);
@@ -81,7 +131,7 @@ section {
 
 section.primary,
 section.tertiary {
-    background-color: #FFFDF9;;
+    background-color: var(--primary-color--);
 }
 
 section.secondary {
@@ -94,13 +144,12 @@ header {
     url('../images/chocolate-boxes.png');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #FFFDF9;
+    color: var(--primary-color--);
     text-align: center;
     padding: 200px;
 }
 
 header h1 {
-    font-weight: 700;
     font-size: 96px;
     line-height: 1;
     font-style: italic;
@@ -108,30 +157,21 @@ header h1 {
 }
 
 header h2 {
-    font-weight: 400;
     font-size: 40px;
-    line-height: 1.5;
-    margin: 0;
 }
 
 header h3 {
     font-weight: 900;
     font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    margin: 0;
 }
 
 header a {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 1.5;
     text-align: center;
-    letter-spacing: 3px;
     text-transform: uppercase;
-    background-color: #FFFDF9;
+    background-color: var(--primary-color--);
     text-decoration: none;
-    color: #272044;
+    color: var(--text-color--);
     padding: 16px 32px;
     margin-top: 32px;
     display: inline-block
@@ -141,52 +181,37 @@ header a {
     width: 100%;
 }
 
-main {
-   background-color: white; 
-}
-
 main h2 {
-    font-weight: 700;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    color: #272044;
+    color: var(--text-color--);
     opacity: 0.3;
     text-transform: uppercase;
-    margin: 0;
 }
 
 main h3 {
-    font-weight: 700;
     font-size: 40px;
-    line-height: 1.5;
-    color: #272044;
-    margin: 0;
+    color: var(--text-color--);
 }
 
 
 main h4 {
-    font-weight: 700;
     font-size: 24px;
     line-height: 1;
-    color:#272044;
+    color:var(--text-color--);
     margin: 0;
 }
 
 main h5 {
-    font-weight: 700;
     font-size: 13px;
     line-height: 1;
-    color: #272044; 
+    color: var(--text-color--); 
 }
 
 main p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    color: #272044;
-    opacity: 0.7;
+    color: var(--text-color--);
 }
 
 footer {
@@ -197,13 +222,11 @@ footer {
 } 
 
 footer h3 {
-   font-weight: 700;
    font-size: 20px;
    line-height: 30px; 
 }
 
 footer p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     opacity: 0.9;
@@ -221,7 +244,6 @@ footer li {
 
 footer a {
     color: white;
-    opacity: 0.7;
 }
 
 @media (max-width: 960px) {
